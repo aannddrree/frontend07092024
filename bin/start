@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "Serving static files"
+exec python -m http.server 8000
